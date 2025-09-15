@@ -1,51 +1,51 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { 
-  FileText, 
   Users, 
-  GraduationCap, 
-  Plane, 
+  UserCheck, 
+  Briefcase, 
+  Globe, 
   Shield, 
   MessageCircle,
   CheckCircle,
-  Globe
+  Building2
 } from "lucide-react";
 
 const services = [
   {
-    icon: FileText,
-    title: "University Application",
-    description: "Complete assistance with university applications, document preparation, and submission process.",
-    features: ["Application guidance", "Document review", "Deadline management", "Multiple applications"]
-  },
-  {
-    icon: Shield,
-    title: "Visa Assistance",
-    description: "Expert visa consultation and support throughout the entire visa application process.",
-    features: ["Visa consultation", "Document preparation", "Interview preparation", "Success guarantee*"]
-  },
-  {
     icon: Users,
-    title: "Career Counseling",
-    description: "Personalized career guidance to help you choose the right course and university.",
-    features: ["Aptitude assessment", "Career mapping", "Course selection", "Future planning"]
+    title: "HR Consultancy Services",
+    description: "Expert guidance in workforce planning and hiring strategies tailored to your business needs.",
+    features: ["Workforce planning", "Hiring strategies", "Process optimization", "Strategic guidance"]
   },
   {
-    icon: Plane,
-    title: "Pre-Departure Support",
-    description: "Comprehensive support to prepare you for life abroad, from accommodation to cultural orientation.",
-    features: ["Travel assistance", "Accommodation help", "Cultural orientation", "Airport pickup"]
+    icon: UserCheck,
+    title: "Local & International Recruitment",
+    description: "Connecting employers with skilled candidates from Malta and international markets.",
+    features: ["Local talent sourcing", "International recruitment", "Candidate screening", "Skills matching"]
   },
   {
-    icon: GraduationCap,
-    title: "Test Preparation",
-    description: "IELTS, TOEFL, GRE, GMAT, and other standardized test preparation with expert trainers.",
-    features: ["Expert trainers", "Mock tests", "Study materials", "Score guarantee"]
+    icon: Briefcase,
+    title: "Interview Coordination",
+    description: "Professional interview arrangement and support between employers and potential candidates.",
+    features: ["Interview scheduling", "Candidate preparation", "Employer support", "Follow-up coordination"]
+  },
+  {
+    icon: Globe,
+    title: "Hiring Process Assistance",
+    description: "Complete support through shortlisting, documentation guidance, and onboarding processes.",
+    features: ["Candidate shortlisting", "Documentation support", "Onboarding guidance", "Process management"]
+  },
+  {
+    icon: Building2,
+    title: "Employer-Centric Solutions",
+    description: "We work exclusively on behalf of employers to ensure they find the right people for their teams.",
+    features: ["Employer focused", "Tailored solutions", "Quality assurance", "Success guarantee"]
   },
   {
     icon: MessageCircle,
-    title: "Post-Arrival Support",
-    description: "Continued support even after you reach your destination country for a smooth transition.",
-    features: ["Local assistance", "Bank account setup", "Mobile connection", "Ongoing support"]
+    title: "Multi-Location Support",
+    description: "Access to talent pools across Malta, UAE, and Nepal through our established networks.",
+    features: ["Malta operations", "UAE network", "Nepal connections", "Cross-border support"]
   }
 ];
 
@@ -58,11 +58,11 @@ const Services = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Our 
             <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              {" "}Services
+              {" "}HR Solutions
             </span>
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Comprehensive support for your entire study abroad journey. From application to post-arrival, we're with you every step of the way.
+            Comprehensive HR consultancy services bridging employers with the right talent. We streamline your recruitment process from start to finish.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ const Services = () => {
               Our Simple 4-Step Process
             </h3>
             <p className="text-lg text-muted-foreground">
-              We've streamlined the study abroad process to make it as smooth and stress-free as possible.
+              We've streamlined the recruitment process to make it as efficient and effective as possible for both employers and job seekers.
             </p>
           </div>
 
@@ -118,23 +118,23 @@ const Services = () => {
             {[
               {
                 step: "01",
-                title: "Free Consultation",
-                description: "Share your goals and get personalized guidance from our experts."
+                title: "Requirements Analysis",
+                description: "We understand your hiring needs and company culture to find the perfect match."
               },
               {
                 step: "02", 
-                title: "University Selection",
-                description: "Choose the best universities and courses based on your profile."
+                title: "Candidate Sourcing",
+                description: "Access our networks in Malta, UAE, and Nepal to find qualified candidates."
               },
               {
                 step: "03",
-                title: "Application & Visa",
-                description: "Complete application process and visa assistance with our support."
+                title: "Screening & Matching",
+                description: "Thorough candidate evaluation and matching based on your specific requirements."
               },
               {
                 step: "04",
-                title: "Departure Ready",
-                description: "Pre-departure support and post-arrival assistance for smooth transition."
+                title: "Interview & Onboarding",
+                description: "Coordinate interviews and provide support through the hiring and onboarding process."
               }
             ].map((process, index) => (
               <div key={index} className="text-center">

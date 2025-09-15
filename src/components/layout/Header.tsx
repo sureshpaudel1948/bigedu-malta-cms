@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X, Users } from "lucide-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,11 +12,11 @@ const Header = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary-glow">
-            <GraduationCap className="h-6 w-6 text-primary-foreground" />
+            <Users className="h-6 w-6 text-primary-foreground" />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-bold">Big Education</span>
-            <span className="text-xs text-muted-foreground">Malta</span>
+            <span className="text-xl font-bold">Stellar HR</span>
+            <span className="text-xs text-muted-foreground">Consultancy</span>
           </div>
         </Link>
 
@@ -32,19 +32,7 @@ const Header = () => {
             to="/about"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
-            About Us
-          </Link>
-          <Link
-            to="/courses"
-            className="text-sm font-medium transition-colors hover:text-primary"
-          >
-            Courses
-          </Link>
-          <Link
-            to="/destinations"
-            className="text-sm font-medium transition-colors hover:text-primary"
-          >
-            Study Destinations
+            About
           </Link>
           <Link
             to="/services"
@@ -53,10 +41,16 @@ const Header = () => {
             Services
           </Link>
           <Link
-            to="/blog"
+            to="/employers"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
-            Blog
+            For Employers
+          </Link>
+          <Link
+            to="/job-seekers"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            For Job Seekers
           </Link>
           <Link
             to="/contact"
@@ -69,7 +63,7 @@ const Header = () => {
         {/* CTA Button */}
         <div className="hidden md:block">
           <Button variant="hero" size="lg">
-            Get Free Consultation
+            Submit Job Requirements
           </Button>
         </div>
 
@@ -99,21 +93,7 @@ const Header = () => {
               className="block py-2 text-sm font-medium"
               onClick={() => setIsOpen(false)}
             >
-              About Us
-            </Link>
-            <Link
-              to="/courses"
-              className="block py-2 text-sm font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Courses
-            </Link>
-            <Link
-              to="/destinations"
-              className="block py-2 text-sm font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Study Destinations
+              About
             </Link>
             <Link
               to="/services"
@@ -123,11 +103,18 @@ const Header = () => {
               Services
             </Link>
             <Link
-              to="/blog"
+              to="/employers"
               className="block py-2 text-sm font-medium"
               onClick={() => setIsOpen(false)}
             >
-              Blog
+              For Employers
+            </Link>
+            <Link
+              to="/job-seekers"
+              className="block py-2 text-sm font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              For Job Seekers
             </Link>
             <Link
               to="/contact"
@@ -138,7 +125,7 @@ const Header = () => {
             </Link>
             <div className="pt-4">
               <Button variant="hero" size="lg" className="w-full">
-                Get Free Consultation
+                Submit Job Requirements
               </Button>
             </div>
           </nav>

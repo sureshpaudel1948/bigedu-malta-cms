@@ -6,10 +6,10 @@ const About = () => {
     <div className="min-h-screen">
       <Header />
       <main className="pt-20">
-        <div className="container py-16">
-          <h1 className="text-4xl font-bold mb-8">About Big Education Malta</h1>
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h1 className="text-4xl font-bold mb-8">About Stellar HR Consultancy</h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Learn more about our mission, vision, and commitment to helping students achieve their educational dreams.
+            Learn more about our mission to connect employers with the right talent across Malta, UAE, and Nepal.
           </p>
           <div className="prose max-w-none">
             <p>Content coming soon...</p>
