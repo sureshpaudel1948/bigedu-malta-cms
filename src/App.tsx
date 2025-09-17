@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+       <BrowserRouter basename="/bigedu-malta-cms/"> {/* 👈 Added basename */}
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
