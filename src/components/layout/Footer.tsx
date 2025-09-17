@@ -13,7 +13,7 @@ const Footer = () => {
                 <GraduationCap className="h-6 w-6 text-primary-foreground" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-white">Big Education</span>
+                <span className="text-xl font-bold text-white">Stellar HR</span>
                 <span className="text-xs text-slate-400">Malta</span>
               </div>
             </Link>
@@ -59,13 +59,13 @@ const Footer = () => {
                 to="/courses"
                 className="block text-sm text-slate-400 hover:text-primary transition-colors"
               >
-                Courses
+                For Employers
               </Link>
               <Link
                 to="/destinations"
                 className="block text-sm text-slate-400 hover:text-primary transition-colors"
               >
-                Study Destinations
+                For Job Seekers
               </Link>
               <Link
                 to="/services"
