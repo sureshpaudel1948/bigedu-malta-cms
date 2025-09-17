@@ -13,13 +13,11 @@ const About = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 Why Choose 
                 <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                  {" "}Stellar HR Consultancy ?
+                  {" "}Stellar Spark HR Consultancy?
                 </span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                We specialize in helping employers find qualified workers both locally and internationally. 
-We are not an employer ourselves – the hiring company remains the direct employer. Our 
-role is to support and streamline the recruitment process.
+                Stellar HR Consultancy is a professional HR solutions provider based in Malta, with branches in Dubai (UAE) and Nepal. We specialize in helping employers find qualified workers both locally and internationally. We are not an employer ourselves – the hiring company remains the direct employer. Our role is to support and streamline the recruitment process.
               </p>
             </div>
 
@@ -30,8 +28,8 @@ role is to support and streamline the recruitment process.
                   <Award className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Proven Track Record</h3>
-                  <p className="text-muted-foreground">15+ years of excellence with 98% visa success rate and thousands of happy students.</p>
+                  <h3 className="text-lg font-semibold mb-2">Global Expertise</h3>
+                  <p className="text-muted-foreground">Extensive experience in international recruitment with deep understanding of global workforce needs.</p>
                 </div>
               </div>
 
@@ -40,8 +38,8 @@ role is to support and streamline the recruitment process.
                   <Users className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Expert Team</h3>
-                  <p className="text-muted-foreground">Certified counselors and visa experts with deep knowledge of international education systems.</p>
+                  <h3 className="text-lg font-semibold mb-2">Expert Leadership Team</h3>
+                  <p className="text-muted-foreground">Led by Joseph SAMMUT (Owner), Purna B. (Operations Manager), and Suraj KC (Regional Head).</p>
                 </div>
               </div>
 
@@ -50,8 +48,8 @@ role is to support and streamline the recruitment process.
                   <Globe className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Global Network</h3>
-                  <p className="text-muted-foreground">Strong partnerships with 50+ top universities across Australia, UK, Canada, USA, and more.</p>
+                  <h3 className="text-lg font-semibold mb-2">Multi-Location Network</h3>
+                  <p className="text-muted-foreground">Strategic offices across Malta, Dubai (UAE), and Nepal providing comprehensive regional coverage.</p>
                 </div>
               </div>
 
@@ -60,8 +58,8 @@ role is to support and streamline the recruitment process.
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Personal Care</h3>
-                  <p className="text-muted-foreground">End-to-end support from application to post-arrival, treating every student like family.</p>
+                  <h3 className="text-lg font-semibold mb-2">Employer-Centric Approach</h3>
+                  <p className="text-muted-foreground">We work exclusively on behalf of employers to ensure they find the right talent for their teams.</p>
                 </div>
               </div>
             </div>

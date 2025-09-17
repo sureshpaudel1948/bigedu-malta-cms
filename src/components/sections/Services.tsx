@@ -14,38 +14,38 @@ const services = [
   {
     icon: Users,
     title: "HR Consultancy Services",
-    description: "Expert guidance in workforce planning and hiring strategies tailored to your business needs.",
-    features: ["Workforce planning", "Hiring strategies", "Process optimization", "Strategic guidance"]
+    description: "Guiding companies in workforce planning and hiring strategies tailored to your business needs.",
+    features: ["Strategic workforce planning", "Custom hiring strategies", "HR process optimization", "Compliance guidance"]
   },
   {
     icon: UserCheck,
-    title: "Local & International Recruitment",
-    description: "Connecting employers with skilled candidates from Malta and international markets.",
-    features: ["Local talent sourcing", "International recruitment", "Candidate screening", "Skills matching"]
+    title: "Local & International Recruitment Support",
+    description: "Connecting employers with skilled candidates from Malta and international markets abroad.",
+    features: ["Local Malta recruitment", "International talent sourcing", "Candidate screening", "Skills verification"]
   },
   {
     icon: Briefcase,
     title: "Interview Coordination",
-    description: "Professional interview arrangement and support between employers and potential candidates.",
-    features: ["Interview scheduling", "Candidate preparation", "Employer support", "Follow-up coordination"]
+    description: "Arranging and supporting interviews between employers and potential candidates.",
+    features: ["Interview scheduling", "Candidate preparation", "Employer briefing", "Process coordination"]
   },
   {
     icon: Globe,
     title: "Hiring Process Assistance",
-    description: "Complete support through shortlisting, documentation guidance, and onboarding processes.",
-    features: ["Candidate shortlisting", "Documentation support", "Onboarding guidance", "Process management"]
+    description: "Helping with shortlisting, documentation guidance, and onboarding support processes.",
+    features: ["Candidate shortlisting", "Documentation assistance", "Onboarding guidance", "Legal compliance"]
   },
   {
     icon: Building2,
     title: "Employer-Centric Solutions",
-    description: "We work exclusively on behalf of employers to ensure they find the right people for their teams.",
-    features: ["Employer focused", "Tailored solutions", "Quality assurance", "Success guarantee"]
+    description: "Working only on behalf of employers to ensure they find the right people for their teams.",
+    features: ["Employer-first approach", "Tailored recruitment", "Risk reduction", "Quality assurance"]
   },
   {
     icon: MessageCircle,
     title: "Multi-Location Support",
     description: "Access to talent pools across Malta, UAE, and Nepal through our established networks.",
-    features: ["Malta operations", "UAE network", "Nepal connections", "Cross-border support"]
+    features: ["Malta headquarters", "Dubai UAE branch", "Nepal operations", "Cross-border coordination"]
   }
 ];
 

@@ -12,26 +12,17 @@ const Employers = () => {
         {/* Hero Section */}
         <section className="py-24 bg-gradient-to-br from-background to-secondary/20">
           <div className="container">
-            <div className="text-center max-w-4xl mx-auto mb-16">
-              <div className="inline-flex items-center space-x-2 bg-primary/10 rounded-full px-6 py-2 mb-6">
-                <Building2 className="h-4 w-4 text-primary" />
-                <span className="text-sm font-medium">For Employers</span>
-              </div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Find the 
-                <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                  {" "}Right Talent
-                </span>
-              </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                We connect you with qualified workers from Malta and international markets. 
-                Focus on your business while we handle the recruitment process.
-              </p>
-              <Button size="lg" className="group">
-                Submit Job Requirements
-                <UserCheck className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </div>
+          <div className="text-center max-w-4xl mx-auto mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold mb-8">
+              For Employers
+              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+                {" "}Find the Right Talent
+              </span>
+            </h1>
+            <p className="text-xl text-muted-foreground mb-8">
+              Stellar HR helps businesses save time and reduce risk in hiring. Our employer-first approach and global recruitment reach ensures you find the perfect candidates for your team.
+            </p>
+          </div>
           </div>
         </section>
 

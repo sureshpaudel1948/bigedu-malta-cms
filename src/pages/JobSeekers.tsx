@@ -12,26 +12,17 @@ const JobSeekers = () => {
         {/* Hero Section */}
         <section className="py-24 bg-gradient-to-br from-background to-secondary/20">
           <div className="container">
-            <div className="text-center max-w-4xl mx-auto mb-16">
-              <div className="inline-flex items-center space-x-2 bg-primary/10 rounded-full px-6 py-2 mb-6">
-                <Briefcase className="h-4 w-4 text-primary" />
-                <span className="text-sm font-medium">For Job Seekers</span>
-              </div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Advance Your 
-                <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                  {" "}Career Journey
-                </span>
-              </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                Connect with employers across Malta, UAE, and Nepal. We help match your skills 
-                with the right opportunities in various industries.
-              </p>
-              <Button size="lg" className="group">
-                Upload Your CV
-                <Upload className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </div>
+          <div className="text-center max-w-4xl mx-auto mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold mb-8">
+              For Job Seekers
+              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+                {" "}Find Your Dream Job
+              </span>
+            </h1>
+            <p className="text-xl text-muted-foreground mb-8">
+              Connect with opportunities through Stellar HR. Get guidance for both local and international placements with complete support from application to placement.
+            </p>
+          </div>
           </div>
         </section>
 

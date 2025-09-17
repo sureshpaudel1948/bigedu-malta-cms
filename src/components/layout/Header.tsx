@@ -11,12 +11,22 @@ const Header = () => {
       <div className="container flex h-20 items-center justify-between">
         {/* Logo */}
         
-        <Link to="/" className="flex items-center space-x-2">
+        <Link to="/" className="flex items-center space-x-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary-glow">
-            <Users className="h-6 w-6 text-primary-foreground" />
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              className="w-6 h-6 text-primary-foreground"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2L15.09 8.26L22 9L17 14.74L18.18 22L12 18.77L5.82 22L7 14.74L2 9L8.91 8.26L12 2Z"
+                fill="currentColor"
+              />
+            </svg>
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-bold">Stellar HR</span>
+            <span className="text-xl font-bold">Stellar Spark HR</span>
             <span className="text-xs text-muted-foreground">Consultancy</span>
           </div>
         </Link>

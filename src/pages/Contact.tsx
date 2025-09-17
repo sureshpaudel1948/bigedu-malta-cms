@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { ArrowRight, Building2, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
   return (

@@ -25,18 +25,17 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Connecting
-            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent block">
-              Employers & Talent
-            </span>
-            Seamlessly
-          </h1>
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+              Work Global.
+              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent block">
+                Recruit Globally
+              </span>
+            </h1>
 
-          {/* Subheading */}
-          <p className="text-xl md:text-2xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
-            Professional HR consultancy bridging Malta, UAE, and Nepal. We help employers find qualified workers locally and internationally.
-          </p>
+            {/* Subheading */}
+            <p className="text-xl md:text-2xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
+              With dedicated global local teams, our experts are on hand to get you started on your global journey. Professional HR solutions across Malta, UAE, and Nepal.
+            </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
