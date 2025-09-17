@@ -84,37 +84,37 @@ const Footer = () => {
 
           {/* Study Destinations */}
           <div className="space-y-4">
-            <h3 className="text-white font-semibold">Study Destinations</h3>
+            <h3 className="text-white font-semibold">Key Factors We Serve</h3>
             <nav className="space-y-2">
               <a
                 href="#"
                 className="block text-sm text-slate-400 hover:text-primary transition-colors"
               >
-                Australia
+                Hospitality & Tourism
               </a>
               <a
                 href="#"
                 className="block text-sm text-slate-400 hover:text-primary transition-colors"
               >
-                United Kingdom
+                 Healthcare & Caregiving
               </a>
               <a
                 href="#"
                 className="block text-sm text-slate-400 hover:text-primary transition-colors"
               >
-                Canada
+                Retail & Customer Service
               </a>
               <a
                 href="#"
                 className="block text-sm text-slate-400 hover:text-primary transition-colors"
               >
-                United States
+                 Construction & Skilled Trades
               </a>
               <a
                 href="#"
                 className="block text-sm text-slate-400 hover:text-primary transition-colors"
               >
-                New Zealand
+                NLogistics & Transport
               </a>
             </nav>
           </div>
