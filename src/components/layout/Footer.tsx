@@ -13,7 +13,7 @@ const Footer = () => {
                 <GraduationCap className="h-6 w-6 text-primary-foreground" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-white">Stellar HR</span>
+                <span className="text-xl font-bold text-white">Stellar Spark HR</span>
                 <span className="text-xs text-slate-400">Malta</span>
               </div>
             </Link>
@@ -146,7 +146,7 @@ const Footer = () => {
                   href="mailto:info@bigeducationmalta.com"
                   className="text-sm text-slate-400 hover:text-primary transition-colors"
                 >
-                  info@bigeducationmalta.com
+                  info@stellarhrconsultant.com
                 </a>
               </div>
             </div>
@@ -155,7 +155,7 @@ const Footer = () => {
 
         <div className="border-t border-slate-800 mt-12 pt-8 text-center">
           <p className="text-sm text-slate-400">
-            © 2024 Big Education Malta. All rights reserved.
+            © 2024 Stellar Spark HR, Malta. All rights reserved.
           </p>
         </div>
       </div>
