@@ -13,11 +13,13 @@ const About = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 Why Choose 
                 <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                  {" "}Big Education Malta?
+                  {" "}Stellar HR Consultancy ?
                 </span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                With over 15 years of experience in international education, we've helped thousands of students achieve their dreams of studying abroad. Our success is built on trust, expertise, and unwavering commitment to student success.
+                We specialize in helping employers find qualified workers both locally and internationally. 
+We are not an employer ourselves – the hiring company remains the direct employer. Our 
+role is to support and streamline the recruitment process.
               </p>
             </div>
 
