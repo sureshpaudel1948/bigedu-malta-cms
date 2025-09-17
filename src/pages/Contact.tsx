@@ -4,7 +4,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Building2, Phone, Mail, MapPin, Clock } from "lucide-react";
+import {
+  ArrowRight,
+  Building2,
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+} from "lucide-react";
 
 const Contact = () => {
   return (
@@ -15,7 +22,9 @@ const Contact = () => {
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-8">Get In Touch</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ready to start your study abroad journey? Contact us today for a free consultation and personalized guidance.
+              Looking for the right talent or career opportunity? Contact
+              Stellar HR Consultancy today — we’re here to support employers and
+              job seekers every step of the way.
             </p>
           </div>
 
@@ -27,30 +36,46 @@ const Contact = () => {
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <label className="text-sm font-medium mb-2 block">First Name</label>
+                      <label className="text-sm font-medium mb-2 block">
+                        First Name
+                      </label>
                       <Input placeholder="Your first name" />
                     </div>
                     <div>
-                      <label className="text-sm font-medium mb-2 block">Last Name</label>
+                      <label className="text-sm font-medium mb-2 block">
+                        Last Name
+                      </label>
                       <Input placeholder="Your last name" />
                     </div>
                   </div>
                   <div>
-                    <label className="text-sm font-medium mb-2 block">Email</label>
+                    <label className="text-sm font-medium mb-2 block">
+                      Email
+                    </label>
                     <Input type="email" placeholder="your.email@example.com" />
                   </div>
                   <div>
-                    <label className="text-sm font-medium mb-2 block">Phone</label>
+                    <label className="text-sm font-medium mb-2 block">
+                      Phone
+                    </label>
                     <Input type="tel" placeholder="+356 1234 5678" />
                   </div>
                   <div>
-                    <label className="text-sm font-medium mb-2 block">Preferred Study Destination</label>
-                    <Input placeholder="e.g., Australia, UK, Canada" />
+                    <label className="text-sm font-medium mb-2 block">
+                      I am a
+                    </label>
+                    <select className="w-full border rounded-md px-3 py-2">
+                      <option>Employer (Looking for staff)</option>
+                      <option>Job Seeker (Looking for work)</option>
+                      <option>General Inquiry</option>
+                    </select>
                   </div>
                   <div>
-                    <label className="text-sm font-medium mb-2 block">Message</label>
-                    <Textarea 
-                      placeholder="Tell us about your study goals and how we can help you..."
+                    <label className="text-sm font-medium mb-2 block">
+                      Message
+                    </label>
+                    <Textarea
+                      placeholder="Tell us about your hiring needs or the type of job you are seeking..."
                       rows={5}
                     />
                   </div>
@@ -71,7 +96,9 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold">Visit Our Office</h3>
-                      <p className="text-muted-foreground">123 Republic Street, Valletta VLT 1117, Malta</p>
+                      <p className="text-muted-foreground">
+                        123 Republic Street, Valletta VLT 1117, Malta
+                      </p>
                     </div>
                   </div>
                 </CardContent>
@@ -99,7 +126,9 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold">Email Us</h3>
-                      <p className="text-muted-foreground">info@bigeducationmalta.com</p>
+                      <p className="text-muted-foreground">
+                        info@stellarhrconsultant.com
+                      </p>
                     </div>
                   </div>
                 </CardContent>
