@@ -76,29 +76,29 @@ const About = () => {
           <div className="grid grid-cols-2 gap-6">
             <Card className="bg-gradient-to-br from-primary to-primary-glow text-primary-foreground border-0">
               <CardContent className="p-8 text-center">
-                <div className="text-4xl font-bold mb-2">5000+</div>
-                <div className="text-primary-foreground/80">Students Placed</div>
+                <div className="text-4xl font-bold mb-2">8000+</div>
+                <div className="text-primary-foreground/80">Successful Candidate Placements</div>
               </CardContent>
             </Card>
 
             <Card className="bg-white border-0 shadow-elegant">
               <CardContent className="p-8 text-center">
-                <div className="text-4xl font-bold text-primary mb-2">98%</div>
-                <div className="text-muted-foreground">Visa Success Rate</div>
+                <div className="text-4xl font-bold text-primary mb-2">95%</div>
+                <div className="text-muted-foreground">Employer Satisfaction Rate</div>
               </CardContent>
             </Card>
 
             <Card className="bg-white border-0 shadow-elegant">
               <CardContent className="p-8 text-center">
                 <div className="text-4xl font-bold text-primary mb-2">50+</div>
-                <div className="text-muted-foreground">University Partners</div>
+                <div className="text-muted-foreground">Trusted Business Clients</div>
               </CardContent>
             </Card>
 
             <Card className="bg-gradient-to-br from-slate-100 to-slate-200 border-0">
               <CardContent className="p-8 text-center">
-                <div className="text-4xl font-bold text-slate-700 mb-2">15+</div>
-                <div className="text-slate-600">Years Experience</div>
+                <div className="text-4xl font-bold text-slate-700 mb-2">10+</div>
+                <div className="text-slate-600">Years of Industry Experience</div>
               </CardContent>
             </Card>
 
@@ -110,12 +110,12 @@ const About = () => {
                     <span className="text-primary-foreground font-bold">SB</span>
                   </div>
                   <div>
-                    <div className="font-semibold">Sarah Bonello</div>
-                    <div className="text-sm text-muted-foreground">Now in Australia</div>
+                    <div className="font-semibold">Mark Azzopardi</div>
+                    <div className="text-sm text-muted-foreground">General Manager, Hospitality Group Malta</div>
                   </div>
                 </div>
                 <p className="text-muted-foreground italic">
-                  "Big Education Malta made my dream of studying in Australia come true. Their support was incredible from day one!"
+                  "Stellar HR Consultancy made our recruitment process seamless. Their team connected us with skilled professionals quickly and efficiently. Truly a reliable partner for any business."
                 </p>
               </CardContent>
             </Card>
