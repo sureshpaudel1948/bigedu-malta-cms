@@ -26,7 +26,7 @@ const Header = () => {
             </svg>
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-bold">Stellar Spark HR</span>
+            <span className="text-xl font-bold">Stellar HR Consultancy</span>
             <span className="text-xs text-muted-foreground">Consultancy</span>
           </div>
         </Link>
