@@ -13,7 +13,7 @@ const About = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 Why Choose 
                 <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                  {" "}Stellar Spark HR Consultancy?
+                  {" "}Stellar HR Consultancy ?
                 </span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8">
